@@ -1,6 +1,3 @@
-export const config = {
-  runtime: 'nodejs',
-};
 
 import { createClient } from '@supabase/supabase-js'
 import { Buffer } from 'buffer'; // <-- esta linha nova é essencial!
