@@ -7,7 +7,7 @@ export default async (req, res) => {
 
     const supabase = createClient(
       'https://axajxnpbzncxgpicamgu.supabase.co',
-      'SUA_ANON_PUBLIC_KEY_AQUI' // <-- SUBSTITUIR pela sua chave anon do Supabase
+      'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImF4YWp4bnBiem5jeGdwaWNhbWd1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDU4ODg0NjgsImV4cCI6MjA2MTQ2NDQ2OH0.4WGkX3j1c-ovenZc9pYGSfqtoX5G2MjCQoDnj5HHJ1Q' // <-- SUBSTITUIR pela sua chave anon do Supabase
     );
 
     const buffer = Buffer.from(base64, 'base64');
